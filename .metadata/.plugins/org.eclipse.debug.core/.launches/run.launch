@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.ibm.rules.studio.decisionservice.launching.DecisionOperation">
+<stringAttribute key="com.ibm.rules.studio.decisionservice.ui.OPERATION_PATH" value="/DS_ValidaPromocao/implementação/run"/>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_FUNCT_SIGN">
+<mapEntry key="RequestValidaPromocao" value="function com.educaciencia.odm.request.RequestValidaPromocao get_RequestValidaPromocao_value()"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_FUNCT_VALUES">
+<mapEntry key="RequestValidaPromocao" value="com.educaciencia.odm.request.RequestValidaPromocao result = new com.educaciencia.odm.request.RequestValidaPromocao();&#10;result.nomeProduto = &quot;Monitor&quot;;&#10;result.descricaoProduto = &quot;14polegadas&quot;;&#10;result.fabricanteProduto = &quot;Sansung&quot;;&#10;return result;&#10;&#10;"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_NAMES">
+<mapEntry key="RequestValidaPromocao" value="RequestValidaPromocao"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_SIMPLE_VALUES">
+<mapEntry key="RequestValidaPromocao" value=""/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_TYPES">
+<mapEntry key="RequestValidaPromocao" value="2"/>
+</mapAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/DS_ValidaPromocao"/>
+<listEntry value="/DS_ValidaPromocao"/>
+<listEntry value="/DS_ValidaPromocao/implementação/run.dop"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+<listEntry value="4"/>
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="DS_ValidaPromocao"/>
+</launchConfiguration>

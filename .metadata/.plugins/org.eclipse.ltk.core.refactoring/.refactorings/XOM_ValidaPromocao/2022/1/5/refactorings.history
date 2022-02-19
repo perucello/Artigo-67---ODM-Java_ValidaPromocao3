@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.educaciencia.odm&apos; to &apos;com.educaciencia.odm.request&apos;&#x0D;&#x0A;- Original project: &apos;XOM_ValidaPromocao&apos;&#x0D;&#x0A;- Original element: &apos;XOM_ValidaPromocao/src/com.educaciencia.odm&apos;&#x0D;&#x0A;- Renamed element: &apos;XOM_ValidaPromocao/src/com.educaciencia.odm.request&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.educaciencia.odm&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.educaciencia.odm" name="com.educaciencia.odm.request" qualified="false" references="true" stamp="1643500290882" textual="false" version="1.0"/>
+</session>

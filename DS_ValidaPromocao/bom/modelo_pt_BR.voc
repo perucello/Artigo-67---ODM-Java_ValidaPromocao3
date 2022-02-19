@@ -1,0 +1,30 @@
+# Vocabulary Properties
+uuid = b96729f4-7bd8-4759-ba1c-a9f4c56090e7
+
+# com.educaciencia.odm.request.RequestValidaPromocao
+com.educaciencia.odm.request.RequestValidaPromocao#concept.label = request valida promocao
+com.educaciencia.odm.request.RequestValidaPromocao.descricaoProduto#phrase.action = atribuir o descricao produto {this,PARTITIVE_ARTICLE} a {descricao produto}
+com.educaciencia.odm.request.RequestValidaPromocao.descricaoProduto#phrase.navigation = {descricao produto} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.request.RequestValidaPromocao.fabricanteProduto#phrase.action = atribuir o fabricante produto {this,PARTITIVE_ARTICLE} a {fabricante produto}
+com.educaciencia.odm.request.RequestValidaPromocao.fabricanteProduto#phrase.navigation = {fabricante produto} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.request.RequestValidaPromocao.nomeProduto#phrase.action = atribuir o nome produto {this,PARTITIVE_ARTICLE} a {nome produto}
+com.educaciencia.odm.request.RequestValidaPromocao.nomeProduto#phrase.navigation = {nome produto} {this,PARTITIVE_ARTICLE}
+
+# com.educaciencia.odm.response.ResponseValidaPromocao
+com.educaciencia.odm.response.ResponseValidaPromocao#concept.label = response valida promocao
+com.educaciencia.odm.response.ResponseValidaPromocao.valorProduto#phrase.action = atribuir o valor produto {this,PARTITIVE_ARTICLE} a {valor produto}
+com.educaciencia.odm.response.ResponseValidaPromocao.valorProduto#phrase.navigation = {valor produto} {this,PARTITIVE_ARTICLE}
+
+# com.educaciencia.odm.validaPromocao.ValidaProduto
+com.educaciencia.odm.validaPromocao.ValidaProduto#concept.label = valida produto
+com.educaciencia.odm.validaPromocao.ValidaProduto.validaProdutodescricao#phrase.action = atribuir o valida produtodescricao {this,PARTITIVE_ARTICLE} a {valida produtodescricao}
+com.educaciencia.odm.validaPromocao.ValidaProduto.validaProdutodescricao#phrase.navigation = {valida produtodescricao} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.validaPromocao.ValidaProduto.validaProdutofabricante#phrase.action = atribuir o valida produtofabricante {this,PARTITIVE_ARTICLE} a {valida produtofabricante}
+com.educaciencia.odm.validaPromocao.ValidaProduto.validaProdutofabricante#phrase.navigation = {valida produtofabricante} {this,PARTITIVE_ARTICLE}
+com.educaciencia.odm.validaPromocao.ValidaProduto.validaProdutonome#phrase.action = atribuir o valida produtonome {this,PARTITIVE_ARTICLE} a {valida produtonome}
+com.educaciencia.odm.validaPromocao.ValidaProduto.validaProdutonome#phrase.navigation = {valida produtonome} {this,PARTITIVE_ARTICLE}
+
+# com.educaciencia.odm.validaPromocao.ValidaPromocao
+com.educaciencia.odm.validaPromocao.ValidaPromocao#concept.label = valida promocao
+com.educaciencia.odm.validaPromocao.ValidaPromocao.validaPromocao#phrase.action = colocar à {valida promocao} que {this} é valida promocao
+com.educaciencia.odm.validaPromocao.ValidaPromocao.validaPromocao#phrase.navigation = {this} é valida promocao

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Regra1_encontraProduto</name>
+  <uuid>18753034-9be8-4df4-9cbe-b39074629d4e</uuid>
+  <locale>pt_BR</locale>
+  <definition><![CDATA[se 
+	  o nome produto de RequestValidaPromocao é o valida produtonome de ValidaProduto 
+	e o descricao produto de RequestValidaPromocao é o valida produtodescricao de ValidaProduto  
+	e o fabricante produto de RequestValidaPromocao é o valida produtofabricante de ValidaProduto  
+então 
+Apresentar "encontrou produto na promoção.";
+colocar à verdadeiro que ValidaPromocao é valida promocao ; 
+senão 
+Apresentar "produto nao esta na promocao!" ; 
+colocar à falso que ValidaPromocao é valida promocao ;  ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

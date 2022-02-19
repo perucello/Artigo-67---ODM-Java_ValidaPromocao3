@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.dt:DecisionTable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.dt="http://ilog.rules.studio/model/dt.ecore">
+  <name>Tabela de Promocao</name>
+  <uuid>a435aca9-81b9-4f89-ba55-e40ce55f9f3b</uuid>
+  <locale>pt_BR</locale>
+  <definition>
+<DT Version="7.0" xmlns="http://schemas.ilog.com/Rules/7.0/DecisionTable">
+  <Body>
+    <Properties>
+      <Property Name="UI.ShowRuleView" Type="xs:boolean"><![CDATA[true]]></Property>
+    </Properties>
+    <Structure>
+      <ConditionDefinitions>
+        <ConditionDefinition Id="C0">
+          <ExpressionDefinition>
+            <Text><![CDATA[o nome produto de RequestValidaPromocao é <um objeto>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C1">
+          <ExpressionDefinition>
+            <Text><![CDATA[o descricao produto de RequestValidaPromocao é <um objeto>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C2">
+          <ExpressionDefinition>
+            <Text><![CDATA[o fabricante produto de RequestValidaPromocao é <um objeto>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+      </ConditionDefinitions>
+      <ActionDefinitions>
+        <ActionDefinition Id="A0">
+          <ExpressionDefinition>
+            <Text><![CDATA[atribuir o valor produto de ResponseValidaPromocao  a <uma cadeia>]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+        <ActionDefinition Id="A1">
+          <ExpressionDefinition>
+            <Text><![CDATA[atribuir o valida produtonome de ValidaProduto  a o nome produto de RequestValidaPromocao]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+        <ActionDefinition Id="A2">
+          <ExpressionDefinition>
+            <Text><![CDATA[atribuir o valida produtodescricao de ValidaProduto  a o descricao produto de RequestValidaPromocao]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+        <ActionDefinition Id="A3">
+          <ExpressionDefinition>
+            <Text><![CDATA[atribuir o valida produtofabricante de ValidaProduto  a o fabricante produto de RequestValidaPromocao]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+      </ActionDefinitions>
+    </Structure>
+    <Contents>
+      <Partition DefId="C0">
+        <Condition>
+          <Expression>
+            <Param><![CDATA["Notebook"]]></Param>
+          </Expression>
+          <Partition DefId="C1">
+            <Condition>
+              <Expression>
+                <Param><![CDATA["i5"]]></Param>
+              </Expression>
+              <Partition DefId="C2">
+                <Condition>
+                  <Expression>
+                    <Param><![CDATA["Lenovo"]]></Param>
+                  </Expression>
+                  <ActionSet>
+                    <Action DefId="A0">
+                      <Expression>
+                        <Param><![CDATA["3.999,00"]]></Param>
+                      </Expression>
+                    </Action>
+                    <Action DefId="A1">
+                      <Expression/>
+                    </Action>
+                    <Action DefId="A2">
+                      <Expression/>
+                    </Action>
+                    <Action DefId="A3">
+                      <Expression/>
+                    </Action>
+                  </ActionSet>
+                </Condition>
+              </Partition>
+            </Condition>
+          </Partition>
+        </Condition>
+        <Condition>
+          <Expression>
+            <Param><![CDATA["Notebook"]]></Param>
+          </Expression>
+          <Partition DefId="C1">
+            <Condition>
+              <Expression>
+                <Param><![CDATA["i5"]]></Param>
+              </Expression>
+              <Partition DefId="C2">
+                <Condition>
+                  <Expression>
+                    <Param><![CDATA["Dell"]]></Param>
+                  </Expression>
+                  <ActionSet>
+                    <Action DefId="A0">
+                      <Expression>
+                        <Param><![CDATA["3.899,99"]]></Param>
+                      </Expression>
+                    </Action>
+                    <Action DefId="A1">
+                      <Expression/>
+                    </Action>
+                    <Action DefId="A2">
+                      <Expression/>
+                    </Action>
+                    <Action DefId="A3">
+                      <Expression/>
+                    </Action>
+                  </ActionSet>
+                </Condition>
+              </Partition>
+            </Condition>
+          </Partition>
+        </Condition>
+        <Condition>
+          <Expression>
+            <Param><![CDATA["Notebook"]]></Param>
+          </Expression>
+          <Partition DefId="C1">
+            <Condition>
+              <Expression>
+                <Param><![CDATA["i5"]]></Param>
+              </Expression>
+              <Partition DefId="C2">
+                <Condition>
+                  <Expression>
+                    <Param><![CDATA["Sansung"]]></Param>
+                  </Expression>
+                  <ActionSet>
+                    <Action DefId="A0">
+                      <Expression>
+                        <Param><![CDATA["3.799,99"]]></Param>
+                      </Expression>
+                    </Action>
+                    <Action DefId="A1">
+                      <Expression/>
+                    </Action>
+                    <Action DefId="A2">
+                      <Expression/>
+                    </Action>
+                    <Action DefId="A3">
+                      <Expression/>
+                    </Action>
+                  </ActionSet>
+                </Condition>
+              </Partition>
+            </Condition>
+          </Partition>
+        </Condition>
+        <Condition>
+          <Expression>
+            <Param><![CDATA["Notebook"]]></Param>
+          </Expression>
+          <Partition DefId="C1">
+            <Condition>
+              <Expression>
+                <Param><![CDATA["i3"]]></Param>
+              </Expression>
+              <Partition DefId="C2">
+                <Condition>
+                  <Expression>
+                    <Param><![CDATA["Lenovo"]]></Param>
+                  </Expression>
+                  <ActionSet>
+                    <Action DefId="A0">
+                      <Expression>
+                        <Param><![CDATA["2.599,99"]]></Param>
+                      </Expression>
+                    </Action>
+                    <Action DefId="A1">
+                      <Expression/>
+                    </Action>
+                    <Action DefId="A2">
+                      <Expression/>
+                    </Action>
+                    <Action DefId="A3">
+                      <Expression/>
+                    </Action>
+                  </ActionSet>
+                </Condition>
+              </Partition>
+            </Condition>
+          </Partition>
+        </Condition>
+        <Condition>
+          <Expression>
+            <Param><![CDATA["Notebook"]]></Param>
+          </Expression>
+          <Partition DefId="C1">
+            <Condition>
+              <Expression>
+                <Param><![CDATA["i3"]]></Param>
+              </Expression>
+              <Partition DefId="C2">
+                <Condition>
+                  <Expression>
+                    <Param><![CDATA["Dell"]]></Param>
+                  </Expression>
+                  <ActionSet>
+                    <Action DefId="A0">
+                      <Expression>
+                        <Param><![CDATA["2.299,99"]]></Param>
+                      </Expression>
+                    </Action>
+                    <Action DefId="A1">
+                      <Expression/>
+                    </Action>
+                    <Action DefId="A2">
+                      <Expression/>
+                    </Action>
+                    <Action DefId="A3">
+                      <Expression/>
+                    </Action>
+                  </ActionSet>
+                </Condition>
+              </Partition>
+            </Condition>
+          </Partition>
+        </Condition>
+        <Condition>
+          <Expression>
+            <Param><![CDATA["Notebook"]]></Param>
+          </Expression>
+          <Partition DefId="C1">
+            <Condition>
+              <Expression>
+                <Param><![CDATA["i3"]]></Param>
+              </Expression>
+              <Partition DefId="C2">
+                <Condition>
+                  <Expression>
+                    <Param><![CDATA["Sansung"]]></Param>
+                  </Expression>
+                  <ActionSet>
+                    <Action DefId="A0">
+                      <Expression>
+                        <Param><![CDATA["2.199,99"]]></Param>
+                      </Expression>
+                    </Action>
+                    <Action DefId="A1">
+                      <Expression/>
+                    </Action>
+                    <Action DefId="A2">
+                      <Expression/>
+                    </Action>
+                    <Action DefId="A3">
+                      <Expression/>
+                    </Action>
+                  </ActionSet>
+                </Condition>
+              </Partition>
+            </Condition>
+          </Partition>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+      </Partition>
+    </Contents>
+  </Body>
+  <Resources DefaultLocale="pt_BR">
+    <ResourceSet Locale="pt_BR">
+      <Data Name="Definitions(A0)#HeaderText"><![CDATA[Valor R$]]></Data>
+      <Data Name="Definitions(A0)#Width"><![CDATA[311]]></Data>
+      <Data Name="Definitions(A1)#HeaderText"><![CDATA[ValidaProduto]]></Data>
+      <Data Name="Definitions(A1)#Width"><![CDATA[69]]></Data>
+      <Data Name="Definitions(A2)#HeaderText"><![CDATA[ValidaDescricao]]></Data>
+      <Data Name="Definitions(A2)#Width"><![CDATA[70]]></Data>
+      <Data Name="Definitions(A3)#HeaderText"><![CDATA[validaFabricante]]></Data>
+      <Data Name="Definitions(A3)#Width"><![CDATA[72]]></Data>
+      <Data Name="Definitions(C0)#HeaderText"><![CDATA[Nome do Produto]]></Data>
+      <Data Name="Definitions(C0)#Width"><![CDATA[311]]></Data>
+      <Data Name="Definitions(C1)#HeaderText"><![CDATA[Descricao do Produto]]></Data>
+      <Data Name="Definitions(C1)#Width"><![CDATA[312]]></Data>
+      <Data Name="Definitions(C2)#HeaderText"><![CDATA[Fabricante do Produto]]></Data>
+      <Data Name="Definitions(C2)#Width"><![CDATA[311]]></Data>
+    </ResourceSet>
+  </Resources>
+</DT>
+</definition>
+</ilog.rules.studio.model.dt:DecisionTable>

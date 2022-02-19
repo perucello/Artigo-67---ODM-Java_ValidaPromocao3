@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.educaciencia.odm.validaPromocao.ValidaPromocao/validaPromocao/PREDICATE#0">
+            <rule id="62682269-6aef-4b69-af38-2c0631542637"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validaPromocao.ValidaPromocao">
+            <rule id="62682269-6aef-4b69-af38-2c0631542637"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="62682269-6aef-4b69-af38-2c0631542637">
+            <vocElt id="com.educaciencia.odm.validaPromocao.ValidaPromocao/validaPromocao/PREDICATE#0"/>
+            <vocElt id="com.educaciencia.odm.validaPromocao.ValidaPromocao"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="ValidaPromocao">
+            <rule id="62682269-6aef-4b69-af38-2c0631542637"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="62682269-6aef-4b69-af38-2c0631542637">
+            <param id="ValidaPromocao"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="e400e145-c5ec-47a0-8e89-4f1fe9b29719">
+            <rule id="62682269-6aef-4b69-af38-2c0631542637"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/DS_ValidaPromocao/bom/modelo_pt_BR.voc" id="b96729f4-7bd8-4759-ba1c-a9f4c56090e7">
+            <rule id="62682269-6aef-4b69-af38-2c0631542637"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/DS_ValidaPromocao/regras/variaveis.var" id="e400e145-c5ec-47a0-8e89-4f1fe9b29719"/>
+        <resource file="/DS_ValidaPromocao/regras/Fluxo.rfl" id="62682269-6aef-4b69-af38-2c0631542637"/>
+    </resourceTable>
+</impactTables>

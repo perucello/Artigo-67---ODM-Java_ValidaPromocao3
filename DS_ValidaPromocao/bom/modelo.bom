@@ -1,0 +1,45 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/DS_ValidaPromocao//XOM_ValidaPromocao"
+property uuid "0fac9b19-00a8-4d9b-8e5e-bbd2ad1d6cc5"
+package com.educaciencia.odm.request;
+
+
+public class RequestValidaPromocao
+{
+    public string descricaoProduto;
+    public string fabricanteProduto;
+    public string nomeProduto;
+    public RequestValidaPromocao(string arg1, string arg2, string arg3);
+    public RequestValidaPromocao();
+}
+
+package com.educaciencia.odm.response;
+
+
+public class ResponseValidaPromocao
+{
+    public string valorProduto;
+    public ResponseValidaPromocao(string arg);
+    public ResponseValidaPromocao();
+}
+
+package com.educaciencia.odm.validaPromocao;
+
+
+public class ValidaProduto
+{
+    public string validaProdutodescricao;
+    public string validaProdutofabricante;
+    public string validaProdutonome;
+    public ValidaProduto(string arg1, string arg2, string arg3);
+    public ValidaProduto();
+}
+
+public class ValidaPromocao
+{
+    public boolean validaPromocao;
+    public ValidaPromocao(boolean arg);
+    public ValidaPromocao();
+}
+

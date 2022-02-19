@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.educaciencia.odm.validaPromocao.ValidaProduto">
+            <rule id="a435aca9-81b9-4f89-ba55-e40ce55f9f3b"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validaPromocao.ValidaProduto/validaProdutodescricao/SETTER#0">
+            <rule id="a435aca9-81b9-4f89-ba55-e40ce55f9f3b"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.request.RequestValidaPromocao/descricaoProduto/GETTER#0">
+            <rule id="a435aca9-81b9-4f89-ba55-e40ce55f9f3b"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.ResponseValidaPromocao">
+            <rule id="a435aca9-81b9-4f89-ba55-e40ce55f9f3b"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validaPromocao.ValidaProduto/validaProdutonome/SETTER#0">
+            <rule id="a435aca9-81b9-4f89-ba55-e40ce55f9f3b"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.request.RequestValidaPromocao/fabricanteProduto/GETTER#0">
+            <rule id="a435aca9-81b9-4f89-ba55-e40ce55f9f3b"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.request.RequestValidaPromocao">
+            <rule id="a435aca9-81b9-4f89-ba55-e40ce55f9f3b"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.response.ResponseValidaPromocao/valorProduto/SETTER#0">
+            <rule id="a435aca9-81b9-4f89-ba55-e40ce55f9f3b"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.request.RequestValidaPromocao/nomeProduto/GETTER#0">
+            <rule id="a435aca9-81b9-4f89-ba55-e40ce55f9f3b"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.validaPromocao.ValidaProduto/validaProdutofabricante/SETTER#0">
+            <rule id="a435aca9-81b9-4f89-ba55-e40ce55f9f3b"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="a435aca9-81b9-4f89-ba55-e40ce55f9f3b">
+            <vocElt id="com.educaciencia.odm.validaPromocao.ValidaProduto"/>
+            <vocElt id="com.educaciencia.odm.validaPromocao.ValidaProduto/validaProdutodescricao/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.request.RequestValidaPromocao/descricaoProduto/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.response.ResponseValidaPromocao"/>
+            <vocElt id="com.educaciencia.odm.validaPromocao.ValidaProduto/validaProdutonome/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.request.RequestValidaPromocao/fabricanteProduto/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.request.RequestValidaPromocao"/>
+            <vocElt id="com.educaciencia.odm.response.ResponseValidaPromocao/valorProduto/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.request.RequestValidaPromocao/nomeProduto/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.validaPromocao.ValidaProduto/validaProdutofabricante/SETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="RequestValidaPromocao">
+            <rule id="a435aca9-81b9-4f89-ba55-e40ce55f9f3b"/>
+        </param>
+        <param id="ResponseValidaPromocao">
+            <rule id="a435aca9-81b9-4f89-ba55-e40ce55f9f3b"/>
+        </param>
+        <param id="ValidaProduto">
+            <rule id="a435aca9-81b9-4f89-ba55-e40ce55f9f3b"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="a435aca9-81b9-4f89-ba55-e40ce55f9f3b">
+            <param id="RequestValidaPromocao"/>
+            <param id="ResponseValidaPromocao"/>
+            <param id="ValidaProduto"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="e400e145-c5ec-47a0-8e89-4f1fe9b29719">
+            <rule id="a435aca9-81b9-4f89-ba55-e40ce55f9f3b"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/DS_ValidaPromocao/bom/modelo_pt_BR.voc" id="b96729f4-7bd8-4759-ba1c-a9f4c56090e7">
+            <rule id="a435aca9-81b9-4f89-ba55-e40ce55f9f3b"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/DS_ValidaPromocao/regras/variaveis.var" id="e400e145-c5ec-47a0-8e89-4f1fe9b29719"/>
+        <resource file="/DS_ValidaPromocao/regras/Tabela de Promocao.dta" id="a435aca9-81b9-4f89-ba55-e40ce55f9f3b"/>
+    </resourceTable>
+</impactTables>

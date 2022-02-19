@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DS_ValidaPromocao/regras/Regra2_produtoPromocao.brl&apos; to &apos;Regra2_validaNomeProduto.brl&apos;" description="Rename resource &apos;Regra2_produtoPromocao.brl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="regras/Regra2_produtoPromocao.brl" name="Regra2_validaNomeProduto.brl" stamp="1645283471645" updateReferences="true"/>
+</session>
